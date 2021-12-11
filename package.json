@@ -1,22 +1,22 @@
 {
-  "name": "npx-boilerplate",
+  "name": "npx-react-class-start",
   "version": "1.0.0",
   "description": "npx test",
   "bin": {
-    "npx-boilerplate": "./bin/generate-app.js"
+    "npx-react-class-start": "./bin/generate-app.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gongdongho12/npx-bolierplate.git"
+    "url": "git+https://github.com/Gyeongbuk-SHS-for-React/npx-react-class-start.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "gongdongho12@gmail.com",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gongdongho12/npx-bolierplate/issues"
+    "url": "https://github.com/Gyeongbuk-SHS-for-React/npx-react-class-start/issues"
   },
-  "homepage": "https://github.com/gongdongho12/npx-bolierplate#readme",
+  "homepage": "https://github.com/Gyeongbuk-SHS-for-React/npx-react-class-start#readme",
   "keywords": []
 }

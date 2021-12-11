@@ -7,14 +7,14 @@ const fs = require("fs");
 if (process.argv.length < 3) {
   console.log("You have to provide a name to your app.");
   console.log("For example :");
-  console.log("    npx create npx-bolierplate my-app");
+  console.log("    npx https://github.com/Gyeongbuk-SHS-for-React/npx-react-class-start test-app");
   process.exit(1);
 }
 
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-const GIT_REPO = "https://github.com/gongdongho12/react-ainize-boilerplate";
+const GIT_REPO = "https://github.com/Gyeongbuk-SHS-for-React/react-class-boilerplate.git";
 
 if (projectName !== ".") {
   try {
